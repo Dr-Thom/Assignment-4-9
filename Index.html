@@ -5,31 +5,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="styles.css">
+</head>
 
-    <div class=”calculator”>
-  <div class=”calculator__display”>0</div>
-  <div class=”calculator__keys”> … </div>
-</div>
-
-<div class="calculator__keys">
-        <button class="key--operator" data-action="add">+</button>
-        <button class="key--operator" data-action="subtract">-</button>
-        <button class="key--operator" data-action="multiply">&times;</button>
-        <button class="key--operator" data-action="divide">÷</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>0</button>
-        <button data-action="decimal">.</button>
-        <button data-action="clear">AC</button>
-        <button class="key--equal" data-action="calculate">=</button>
-      </div>
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <div id="display" class="calculator__display">0</div>
+            <div class="calculator__keys">
+                <button id="add" class="key__operator" data-action="add">+</button>
+                <button id="sub"class="key__operator" data-action="subtract">-</button>
+                <button id="mult" class="key__operator" data-action="multiply">&times;</button>
+                <button id="div" class="key__operator" data-action="divide">÷</button>
+                <button id="seven" class="key__number">7</button>
+                <button id="eight" class="key__number">8</button>
+                <button id="nine" class="key__number">9</button>
+                <button id="four" class="key__number">4</button>
+                <button id="five" class="key__number">5</button>
+                <button id="six" class="key__number">6</button>
+                <button id="one" class="key__number">1</button>
+                <button id="two" class="key__number">2</button>
+                <button id="three" class="key__number">3</button>
+                <button id="zero" class="key__number">0</button>
+                <button id="dot" class="key__dot" data-action="decimal">.</button>
+                <button id="clear" class="key__clear" data-action="clear">AC</button>
+                <button id="eq" class="key__equal" data-action="calculate">=</button>
+            </div>
+        </div>
     </div>
-  </div>
-  
+</body>
+
+</html>
