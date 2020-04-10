@@ -95,3 +95,7 @@ button:active {
 #zero {
     border-bottom-left-radius: 15px;
 }
+
+@media screen and (min-width: 600px)
+.calculator {height: 50%;
+            width: 50%;}
