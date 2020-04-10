@@ -36,6 +36,9 @@ button {
 }
 
 .calculator__display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #323232;
     color: #f4f4f4;
     text-align: right;
@@ -46,6 +49,10 @@ button {
     padding: 1rem 1rem 1rem 2rem;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    word-break: keep-all;
+    overflow-x: hidden;
+    max-width: 476px;
+    min-height: 55px;
 }
 
 .calculator__keys {
@@ -96,6 +103,27 @@ button:active {
     border-bottom-left-radius: 15px;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 600px)
 .calculator {height: 50%;
             width: 50%;}
+=======
+@media only screen and (min-width: 500px) and (max-width: 640px) {
+    body, html {
+        font-size: 12px;
+    }
+    
+    .calculator__display {
+        min-height: 35px;
+    }
+}
+@media only screen and (max-width: 499px) {
+    body, html {
+        font-size: 8px;
+    }
+
+    .calculator__display {
+        min-height: 35px;
+    }
+}
+>>>>>>> develop
