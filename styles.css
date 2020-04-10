@@ -36,6 +36,9 @@ button {
 }
 
 .calculator__display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #323232;
     color: #f4f4f4;
     text-align: right;
@@ -98,4 +101,23 @@ button:active {
 
 #zero {
     border-bottom-left-radius: 15px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 640px) {
+    body, html {
+        font-size: 12px;
+    }
+    
+    .calculator__display {
+        min-height: 35px;
+    }
+}
+@media only screen and (max-width: 499px) {
+    body, html {
+        font-size: 8px;
+    }
+
+    .calculator__display {
+        min-height: 35px;
+    }
 }
