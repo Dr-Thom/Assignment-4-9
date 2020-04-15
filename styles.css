@@ -103,6 +103,11 @@ button:active {
     border-bottom-left-radius: 15px;
 }
 
+<<<<<<< HEAD
+@media screen and (min-width: 600px)
+.calculator {height: 50%;
+            width: 50%;}
+=======
 @media only screen and (min-width: 500px) and (max-width: 640px) {
     body, html {
         font-size: 12px;
@@ -121,3 +126,4 @@ button:active {
         min-height: 35px;
     }
 }
+>>>>>>> develop
